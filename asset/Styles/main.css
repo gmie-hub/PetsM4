@@ -468,20 +468,23 @@ svg {
     transition: all 0.3s;
 }
 .sec6-link {
-    /* display: flex;
-    position: relative; */
+    display: flex;
+    position: relative;
     height: 130px;
     width: 250px;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center; 
     transition: transform 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.section6-bg .sec6-link:hover {
+    transform: rotate(12deg);
+}
 .sec6-link .bone {
-    /* position: absolute;
+    position: absolute;
     left: 50%;
     top: 0;
-    right: 50%; */
-    /* transform: translateX(-50%); */
+    right: 50%; 
+    transform: translateX(-50%);
 }
 .sec6 h3 {
     z-index: 10;
@@ -492,7 +495,7 @@ svg {
     font-style: normal;
 }
 .bott{
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 .section7-bg{
     padding-top: 90px;
